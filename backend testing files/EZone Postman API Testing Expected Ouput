@@ -1,0 +1,394 @@
+
+Room API request
+Expected Response:
+{
+    "responseMessage": "SUCCESS",
+    "responseCode": "0000",
+    "roomInfoData": [
+        {
+            "roomDescription": "Lab",
+            "latitude": "-31.97760816",
+            "floor": "0",
+            "roomName": "Room G.01",
+            "longitude": "115.81595264"
+        },
+        {
+            "roomDescription": "Toilet",
+            "latitude": "-31.97762238",
+            "floor": "0",
+            "roomName": "Male Toilets (Ground Floor)",
+            "longitude": "115.81599891"
+        },
+        {
+            "roomDescription": "Toilet",
+            "latitude": "-31.97761442",
+            "floor": "0",
+            "roomName": "Female Toilets (Ground Floor)",
+            "longitude": "115.81603914"
+        },
+        {
+            "roomDescription": "Microwave Oven, Fridge, Wash Basin",
+            "latitude": "-31.97764513",
+            "floor": "0",
+            "roomName": "Kitchen (Ground Floor)",
+            "longitude": "115.81603244"
+        },
+        {
+            "roomDescription": "Office",
+            "latitude": "-31.97769348",
+            "floor": "0",
+            "roomName": "Room G.04",
+            "longitude": "115.81603244"
+        },
+        {
+            "roomDescription": "Dr. John McCave-Dansted",
+            "latitude": "-31.97769291",
+            "floor": "0",
+            "roomName": "Room G.06 A",
+            "longitude": "115.81608608"
+        },
+        {
+            "roomDescription": "Mobile, Ad Hoc & Sensor Networks Research Lab",
+            "latitude": "-31.97761328",
+            "floor": "0",
+            "roomName": "Room G.09",
+            "longitude": "115.81613369"
+        },
+        {
+            "roomDescription": "Office",
+            "latitude": "-31.97769291",
+            "floor": "0",
+            "roomName": "Room G.06",
+            "longitude": "115.81611559"
+        },
+        {
+            "roomDescription": "Office",
+            "latitude": "-31.97769234",
+            "floor": "0",
+            "roomName": "Room G.08",
+            "longitude": "115.81615046"
+        },
+        {
+            "roomDescription": "Prof Hugh Barrett Office",
+            "latitude": "-31.97769291",
+            "floor": "0",
+            "roomName": "Room G.10",
+            "longitude": "115.81618868"
+        },
+        {
+            "roomDescription": "Office",
+            "latitude": "-31.97769234",
+            "floor": "0",
+            "roomName": "Room G.12",
+            "longitude": "115.81623293"
+        },
+        {
+            "roomDescription": "Adaptive Systems Research Lab",
+            "latitude": "-31.97761271",
+            "floor": "0",
+            "roomName": "Room G.11",
+            "longitude": "115.81621885"
+        },
+        {
+            "roomDescription": "Dr. Chang-Joon Lee",
+            "latitude": "-31.97769177",
+            "floor": "0",
+            "roomName": "Room G.14",
+            "longitude": "115.81627451"
+        },
+        {
+            "roomDescription": "Office",
+            "latitude": "-31.97769064",
+            "floor": "0",
+            "roomName": "Room G.16",
+            "longitude": "115.81630804"
+        },
+        {
+            "roomDescription": "Fleet Engineering Office",
+            "latitude": "-31.97763489",
+            "floor": "0",
+            "roomName": "Room G.15",
+            "longitude": "115.81635900"
+        },
+        {
+            "roomDescription": "Office",
+            "latitude": "-31.97762750",
+            "floor": "0",
+            "roomName": "Room G.17",
+            "longitude": "115.81641465"
+        },
+        {
+            "roomDescription": "Cleaners Storage room",
+            "latitude": "-31.97770941",
+            "floor": "0",
+            "roomName": "Cleaner Room",
+            "longitude": "115.81594057"
+        },
+        {
+            "roomDescription": "Dr. Du Huynh office",
+            "latitude": "-31.97769291",
+            "floor": "1",
+            "roomName": "Room 1.22",
+            "longitude": "115.81630804"
+        },
+        {
+            "roomDescription": "Prof Rachel Cardell-Oliver Office",
+            "latitude": "-31.97769348",
+            "floor": "1",
+            "roomName": "Room 1.20",
+            "longitude": "115.81627317"
+        },
+        {
+            "roomDescription": "Room",
+            "latitude": "-31.97763433",
+            "floor": "1",
+            "roomName": "Room 1.27A",
+            "longitude": "115.81626579"
+        },
+        {
+            "roomDescription": "Library",
+            "latitude": "-31.97763376",
+            "floor": "1",
+            "roomName": "Room 1.27",
+            "longitude": "115.81622019"
+        },
+        {
+            "roomDescription": "Michael Wise Office",
+            "latitude": "-31.97769348",
+            "floor": "1",
+            "roomName": "Room 1.18",
+            "longitude": "115.81623696"
+        },
+        {
+            "roomDescription": "Dr. Jianxin Li Office",
+            "latitude": "-31.97769348",
+            "floor": "1",
+            "roomName": "Room 1.16",
+            "longitude": "115.81620008"
+        },
+        {
+            "roomDescription": "Air Conditioner Plant Room",
+            "latitude": "-31.97763319",
+            "floor": "1",
+            "roomName": "Room AirCon Plant",
+            "longitude": "115.81617326"
+        },
+        {
+            "roomDescription": "Dr. R. Lyndon While Office",
+            "latitude": "-31.97769291",
+            "floor": "1",
+            "roomName": "Room 1.14",
+            "longitude": "115.81616387"
+        },
+        {
+            "roomDescription": "Dr. Ajmal Mian Office",
+            "latitude": "-31.97769291",
+            "floor": "1",
+            "roomName": "Room 1.12",
+            "longitude": "115.81612699"
+        },
+        {
+            "roomDescription": "Dr. Syed Afaq Ali Shah Office",
+            "latitude": "-31.97769291",
+            "floor": "1",
+            "roomName": "Room 1.10",
+            "longitude": "115.81608944"
+        },
+        {
+            "roomDescription": "Restricted for Staff and Higher Degree by Research Students\r",
+            "latitude": "-31.97763319",
+            "floor": "1",
+            "roomName": "Kitchen and Tea Room (The Aviary)",
+            "longitude": "115.81610151"
+        },
+        {
+            "roomDescription": "Staff Female Toilet",
+            "latitude": "-31.97769348",
+            "floor": "1",
+            "roomName": "Female Toilets (First Floor)",
+            "longitude": "115.81606194"
+        },
+        {
+            "roomDescription": "Storage Room",
+            "latitude": "-31.97768779",
+            "floor": "1",
+            "roomName": "Store Room",
+            "longitude": "115.81601568"
+        },
+        {
+            "roomDescription": "Staff Male Toilet",
+            "latitude": "-31.97770770",
+            "floor": "1",
+            "roomName": "Male Toilets (First Floor)",
+            "longitude": "115.81601501"
+        },
+        {
+            "roomDescription": "Head of School / School Manager/ Accounts/ Research/ General Enquiries/ CSSE Reception",
+            "latitude": "-31.97759451",
+            "floor": "1",
+            "roomName": "Reception",
+            "longitude": "115.81632748"
+        },
+        {
+            "roomDescription": "Seminar Room",
+            "latitude": "-31.97768438",
+            "floor": "1",
+            "roomName": "Seminar Room 1.29",
+            "longitude": "115.81640527"
+        },
+        {
+            "roomDescription": "Photocopy Room; First Aid Room",
+            "latitude": "-31.97763546",
+            "floor": "1",
+            "roomName": "Room 1.29",
+            "longitude": "115.81630804"
+        },
+        {
+            "roomDescription": "Printer Room",
+            "latitude": "-31.97768495",
+            "floor": "2",
+            "roomName": "Room 2.10",
+            "longitude": "115.81607603"
+        },
+        {
+            "roomDescription": "Lab - Mac OS Machines",
+            "latitude": "-31.97759622",
+            "floor": "2",
+            "roomName": "Room 2.03",
+            "longitude": "115.81608206"
+        },
+        {
+            "roomDescription": "Toilet",
+            "latitude": "-31.97770770",
+            "floor": "2",
+            "roomName": "Female Toilets (Second Floor)",
+            "longitude": "115.81605658"
+        },
+        {
+            "roomDescription": "Dr. Ghulam mubashar hassan office",
+            "latitude": "-31.97771623",
+            "floor": "2",
+            "roomName": "Room 2.12",
+            "longitude": "115.81608541"
+        },
+        {
+            "roomDescription": "Dr. Tim French Office",
+            "latitude": "-31.97771566",
+            "floor": "2",
+            "roomName": "Room 2.14",
+            "longitude": "115.81612095"
+        },
+        {
+            "roomDescription": "Dr. David Glance Office",
+            "latitude": "-31.97771566",
+            "floor": "2",
+            "roomName": "Room 2.16",
+            "longitude": "115.81615716"
+        },
+        {
+            "roomDescription": "Dr. Wei Liu Office",
+            "latitude": "-31.97771623",
+            "floor": "2",
+            "roomName": "Room 2.18",
+            "longitude": "115.81619337"
+        },
+        {
+            "roomDescription": "Dr. Chris Macdonald Office",
+            "latitude": "-31.97771623",
+            "floor": "2",
+            "roomName": "Room 2.20",
+            "longitude": "115.81622891"
+        },
+        {
+            "roomDescription": "Lab - Windows/Linux OS Machines",
+            "latitude": "-31.97759565",
+            "floor": "2",
+            "roomName": "Room 2.05",
+            "longitude": "115.81619069"
+        },
+        {
+            "roomDescription": "Store Room",
+            "latitude": "-31.97768381",
+            "floor": "2",
+            "roomName": "Room 2.22",
+            "longitude": "115.81623428"
+        },
+        {
+            "roomDescription": "Lab Room",
+            "latitude": "-31.97770258",
+            "floor": "2",
+            "roomName": "Room 2.24",
+            "longitude": "115.81626311"
+        },
+        {
+            "roomDescription": "Lab - Electric Machines and Analogue Electronics",
+            "latitude": "-31.97759451",
+            "floor": "2",
+            "roomName": "Room 2.07",
+            "longitude": "115.81629798"
+        },
+        {
+            "roomDescription": "Vision & Visualization Research Lab II",
+            "latitude": "-31.97761271",
+            "floor": "2",
+            "roomName": "Room 2.09",
+            "longitude": "115.81638716"
+        },
+        {
+            "roomDescription": "Toilet",
+            "latitude": "-31.97770827",
+            "floor": "2",
+            "roomName": "Male Toilets (Second Floor)",
+            "longitude": "115.81601031"
+        },
+        {
+            "roomDescription": "Tutorial Room ",
+            "latitude": "-31.97770201",
+            "floor": "2",
+            "roomName": "Room 2.28",
+            "longitude": "115.81638917"
+        },
+        {
+            "roomDescription": "CSSC Club Room",
+            "latitude": "-31.97770315",
+            "floor": "2",
+            "roomName": "Room 2.26",
+            "longitude": "115.81629597"
+        },
+        {
+            "roomDescription": "Lab - Windows/Linux OS Machines",
+            "latitude": "-31.97759678",
+            "floor": "2",
+            "roomName": "Room 2.01",
+            "longitude": "115.81597544"
+        },
+        {
+            "buildingName": "ComputerScience"
+        }
+    ]
+}
+
+
+Floor Plan API Request:
+Expected Response: 
+{
+    "responseMessage": "SUCCESS",
+    "responseCode": "0000",
+    "floorPlanData": [
+        {
+            "buildingName": "ComputerScience",
+            "floorPlanID": "5ec55154-e905-40e2-8632-05ba6f71d4ae",
+            "floor": "0"
+        },
+        {
+            "buildingName": "ComputerScience",
+            "floorPlanID": "c275745f-fcf5-4759-896e-b771ab945a66",
+            "floor": "2"
+        },
+        {
+            "buildingName": "ComputerScience",
+            "floorPlanID": "eec18725-2b45-47ac-aa8e-b39eb2de9b74",
+            "floor": "1"
+        }
+    ]
+}

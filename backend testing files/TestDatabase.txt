@@ -1,0 +1,385 @@
+!path lib/*.jar
+!|dbfit.MySqlTest|
+
+!|Connect|localhost:3306|brian|password|pluto|
+
+//Test Building table
+
+//Tests to see if there is any null values in buildingid
+|query|select * from building where buildingid is NULL |
+|buildingid|building_name|
+
+//Tests to see if the buildingids are all there
+!|OrderedQuery|select buildingid from building|
+|buildingid|
+|0|
+
+//Tests to see if the buildingName is correct
+!|OrderedQuery|select * from building|
+|buildingid|building_name|
+|0|ComputerScience|
+
+//Test datatypes
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'building' AND COLUMN_NAME = 'buildingid'|
+|data_type|
+|int|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'building' AND COLUMN_NAME = 'building_name'|
+|data_type|
+|varchar|
+
+|query|SELECT COUNT(*) FROM building|
+|count(*)|
+|1|
+
+//Test Floor table
+
+//Tests to see if there is any null values in floor id 
+|query|select * from floor where floorid is NULL |
+|floorid|buildingId|floor_level|
+
+|query|select floorId, buildingId from floor|
+|floorId|buildingId|
+|0|0| 
+|1|0|
+|2|0|
+
+//Test datatypes
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'floor' AND COLUMN_NAME = 'floorid'|
+|data_type|
+|int|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'floor' AND COLUMN_NAME = 'buildingId'|
+|data_type|
+|int|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'floor' AND COLUMN_NAME = 'floor_level'|
+|data_type|
+|int|
+
+|query|SELECT COUNT(*) FROM floor|
+|count(*)|
+|3|
+
+//Test Location table
+
+//Tests to see if there is any null values in locationid
+|query|select locationid from location where locationid is NULL |
+|locationid|
+
+//Make sure number of locations is equivalent to the acutal number
+!|Query|select locationId from location|
+|locationId|
+|CS027|
+|CS026|
+|CS025|
+|CS024|
+|CS023|
+|CS022|
+|CS021|
+|CS028|
+|CS029|
+|CS02A|
+|CS02B|
+|CS02C|
+|CS02D|
+|CS0211|
+|CS0210|
+|CS02E|
+|CS02F|
+|CS0212|
+|CS0213|
+|CS0215|
+|CS0219|
+|CS0216|
+|CS0217|
+|CS0218|
+|CS0214|
+|CS021C|
+|CS021A|
+|CS021B|
+|CS021D|
+|CS021E|
+|CS021F|
+|CS0220|
+|CS0221|
+|CS0222|
+|CS0223|
+|CS0224|
+|CS0225|
+|CS0229|
+|CS0228|
+|CS0227|
+|CS022A|
+|CS022B|
+|CS0226|
+|CS022C|
+|CS022E|
+|CS022D|
+|CS022F|
+|CS0230|
+|CS0231|
+|CS0234|
+|CS0232|
+|CS0233|
+|CS0235|
+|CS0238|
+|CS0236|
+|CS023B|
+|CS023A|
+|CS023C|
+|CS023D|
+|CS0240|
+|CS0245|
+|CS0243|
+|CS0239|
+|CS023E|
+|CS0241|
+|CS0237|
+|CS0244|
+|CS023F|
+|CS0242|
+|CS0246|
+|CS0247|
+|CS0248|
+|CS0249|
+|CS024A|
+|CS024B|
+|CS024C|
+|CS024D|
+|CS024E|
+|CS024F|
+|CS0250|
+|CS011|
+|CS012|
+|CS013|
+|CS014|
+|CS015|
+|CS016|
+|CS017|
+|CS018|
+|CS019|
+|CS01A|
+|CS01B|
+|CS01C|
+|CS01D|
+|CS01E|
+|CS01F|
+|CS0110|
+|CS0111|
+|CS0112|
+|CS0113|
+|CS0114|
+|CS0115|
+|CS0116|
+|CS0117|
+|CS0118|
+|CS0119|
+|CS011A|
+|CS011B|
+|CS011C|
+|CS011D|
+|CS011E|
+|CS011F|
+|CS0120|
+|CS0121|
+|CS0122|
+|CS0123|
+|CS0124|
+|CS0125|
+|CS0126|
+|CS0127|
+|CS0128|
+|CS0129|
+|CS012A|
+|CS012B|
+|CS012C|
+|CS012D|
+|CS012E|
+|CS012F|
+|CS0130|
+|CS0131|
+|CS0132|
+|CS0133|
+|CS0134|
+|CS0135|
+|CS0136|
+|CS0137|
+|CS0138|
+|CS0139|
+|CS013A|
+|CS013B|
+|CS013C|
+|CS013D|
+|CS013E|
+|CS013F|
+|CS0140|
+|CS0141|
+|CS0142|
+|CS0143|
+|CS0144|
+|CS0145|
+|CS0146|
+|CS0147|
+|CS0148|
+|CS0149|
+|CS014A|
+|CS014B|
+|CS014C|
+|CS014D|
+|CS014E|
+|CS014F|
+|CS0150|
+|CS0151|
+|CS0152|
+|CS001|
+|CS002|
+|CS003|
+|CS004|
+|CS005|
+|CS006|
+|CS007|
+|CS008|
+|CS009|
+|CS00A|
+|CS00B|
+|CS00C|
+|CS00D|
+|CS00E|
+|CS00F|
+|CS0010|
+|CS0011|
+|CS0012|
+|CS0013|
+|CS0014|
+|CS0015|
+|CS0016|
+|CS0017|
+|CS0018|
+|CS0019|
+|CS001A|
+|CS001B|
+|CS001C|
+|CS001D|
+|CS001E|
+|CS001F|
+|CS0020|
+|CS0021|
+|CS0022|
+|CS0023|
+|CS0024|
+|CS0025|
+|CS0026|
+|CS0027|
+|CS0028|
+|CS0029|
+|CS002A|
+|CS002B|
+|CS002C|
+|CS002D|
+|CS002E|
+|CS002F|
+|CS0030|
+|CS0031|
+|CS0032|
+|CS0033|
+|CS0034|
+|CS0035|
+|CS0036|
+|CS0037|
+|CS0038|
+|CS0039|
+|CS003A|
+|CS003B|
+|CS003C|
+|CS003D|
+|CS003E|
+
+//Test Datatypes
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'location' AND COLUMN_NAME = 'locationid'|
+|data_type|
+|varchar|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'location' AND COLUMN_NAME = 'location_name'|
+|data_type|
+|varchar|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'location' AND COLUMN_NAME = 'floorid'|
+|data_type|
+|int|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'location' AND COLUMN_NAME = 'longitude'|
+|data_type|
+|varchar|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'location' AND COLUMN_NAME = 'latitude'|
+|data_type|
+|varchar|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'location' AND COLUMN_NAME = 'tag'|
+|data_type|
+|int|
+
+|query|SELECT COUNT(*) FROM location|
+|count(*)|
+|224|
+
+//Test Link Table
+
+//Test for any null values in locationid and linkid
+|query|select locationid,linkid from link where locationid is NULL AND linkid is NULL |
+|locationid|linkid|
+
+|query|select locationid,linkid from link where locationid is NULL OR linkid is NULL |
+|locationid|linkid|
+
+//Test Datatypes
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'link' AND COLUMN_NAME = 'locationid'|
+|data_type|
+|varchar|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'link' AND COLUMN_NAME = 'linkid'|
+|data_type|
+|varchar|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'link' AND COLUMN_NAME = 'distance'|
+|data_type|
+|varchar|
+
+|query|SELECT COUNT(*) FROM link|
+|count(*)|
+|475|
+
+//Test floorplan table
+
+|query|select floorPlanId FROM floorplan WHERE floorPlanId is NULL|
+|floorPlanID|
+
+|query|select floorPlanId FROM floorplan|
+|floorPlanID|
+|0dc8358c-9e1e-4afa-8adb-3bdfb7154a88|
+|208ae45e-8d22-4faa-bfb2-e245f956de3b|
+|6ee5ef62-e5e9-499e-9f8a-3f2c9c6e2d91|
+|this_is_mock_id_for_ecm_building|
+|this_is_mock_id_for_math_building|
+
+//Test Datatypes
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'floorplan' AND COLUMN_NAME = 'floorPlanId'|
+|data_type|
+|varchar|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'floorplan' AND COLUMN_NAME = 'building_name'|
+|data_type|
+|varchar|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'floorplan' AND COLUMN_NAME = 'floorId'|
+|data_type|
+|int|
+
+|query|SELECT DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE table_name = 'floorplan' AND COLUMN_NAME = 'floor_level'|
+|data_type|
+|varchar|
+
+|query|SELECT COUNT(*) FROM floorplan|
+|count(*)|
+|5|

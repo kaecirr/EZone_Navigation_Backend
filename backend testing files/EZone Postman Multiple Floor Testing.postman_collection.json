@@ -1,0 +1,109 @@
+{
+	"info": {
+		"name": "EZone Postman Multiple Floor Testing",
+		"_postman_id": "da9af796-3bb8-44bd-2172-745c31f8f251",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://52.64.190.66:8080/springMVC-1.0-SNAPSHOT/path",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"requestMessage\": \"\",\r\n        \"pathData\":{\r\n                \"startBuildingName\": \"ComputerScience\",\r\n                \"startFloor\": \"1\",\r\n                \"startLongitude\": \"115.81632748\",\r\n                \"startLatitude\": \"-31.97759451\",\r\n                \"endBuildingName\": \"ComputerScience\",\r\n                \"endFloor\": \"2\",\r\n                \"endLongitude\": \"115.81601031\",\r\n                \"endLatitude\": \"-31.97770827\",\r\n                \"algorithm\": \"DJ\"\r\n        }\r\n\r\n   }"
+				},
+				"url": {
+					"raw": "http://52.64.190.66:8080/springMVC-1.0-SNAPSHOT/path",
+					"protocol": "http",
+					"host": [
+						"52",
+						"64",
+						"190",
+						"66"
+					],
+					"port": "8080",
+					"path": [
+						"springMVC-1.0-SNAPSHOT",
+						"path"
+					]
+				},
+				"description": "Request from Reception to Male toilets 2nd toilets"
+			},
+			"response": []
+		},
+		{
+			"name": "http://52.64.190.66:8080/springMVC-1.0-SNAPSHOT/path",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"requestMessage\": \"\",\r\n        \"pathData\":{\r\n                \"startBuildingName\": \"ComputerScience\",\r\n                \"startFloor\": \"0\",\r\n                \"startLongitude\": \"115.81606194\",\r\n                \"startLatitude\": \"-31.97766277\",\r\n                \"endBuildingName\": \"ComputerScience\",\r\n                \"endFloor\": \"2\",\r\n                \"endLongitude\": \"115.81621751\",\r\n                \"endLatitude\": \"-31.97763888\",\r\n                \"algorithm\": \"DJ\"\r\n        }\r\n\r\n   }\r\n"
+				},
+				"url": {
+					"raw": "http://52.64.190.66:8080/springMVC-1.0-SNAPSHOT/path",
+					"protocol": "http",
+					"host": [
+						"52",
+						"64",
+						"190",
+						"66"
+					],
+					"port": "8080",
+					"path": [
+						"springMVC-1.0-SNAPSHOT",
+						"path"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://52.64.190.66:8080/springMVC-1.0-SNAPSHOT/path",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"requestMessage\": \"\",\r\n        \"pathData\":{\r\n                \"startBuildingName\": \"ComputerScience\",\r\n                \"startFloor\": \"2\",\r\n                \"startLongitude\": \"115.81612095\",\r\n                \"startLatitude\": \"-31.97771566\",\r\n                \"endBuildingName\": \"ComputerScience\",\r\n                \"endFloor\": \"1\",\r\n                \"endLongitude\": \"115.81627317\",\r\n                \"endLatitude\": \"-31.97769348\",\r\n                \"algorithm\": \"DJ\"\r\n        }\r\n\r\n   }\r\n"
+				},
+				"url": {
+					"raw": "http://52.64.190.66:8080/springMVC-1.0-SNAPSHOT/path",
+					"protocol": "http",
+					"host": [
+						"52",
+						"64",
+						"190",
+						"66"
+					],
+					"port": "8080",
+					"path": [
+						"springMVC-1.0-SNAPSHOT",
+						"path"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

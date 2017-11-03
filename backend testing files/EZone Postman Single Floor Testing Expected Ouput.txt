@@ -1,0 +1,301 @@
+			-Room 1.12 to Room 1.20
+			
+			Expected Response:
+			{
+    "responseMessage": "SUCCESS",
+    "responseCode": "0000",
+    "mapData": {
+        "startBuildingName": "ComputerScience",
+        "startFloor": "1",
+        "startLongitude": "115.81612095",
+        "startLatitude": "-31.97771566",
+        "endBuildingName": "ComputerScience",
+        "endFloor": "1",
+        "endLongitude": "115.81627317",
+        "endLatitude": "-31.97769348",
+        "algorithm": "DJ",
+        "path": [
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Room 1.12",
+                "latitude": "-31.97769291",
+                "floor": "1",
+                "longitude": "115.81612699"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Room 1.12 Door",
+                "latitude": "-31.97767244",
+                "floor": "1",
+                "longitude": "115.81613034"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 6",
+                "latitude": "-31.97766106",
+                "floor": "1",
+                "longitude": "115.81612967"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 5",
+                "latitude": "-31.97766106",
+                "floor": "1",
+                "longitude": "115.81616655"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 4",
+                "latitude": "-31.97766049",
+                "floor": "1",
+                "longitude": "115.8162041"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 3",
+                "latitude": "-31.97766106",
+                "floor": "1",
+                "longitude": "115.81624031"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 2",
+                "latitude": "-31.97765992",
+                "floor": "1",
+                "longitude": "115.81627786"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Room 1.20 Door",
+                "latitude": "-31.97767187",
+                "floor": "1",
+                "longitude": "115.8162792"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Room 1.20",
+                "latitude": "-31.97769348",
+                "floor": "1",
+                "longitude": "115.81627317"
+            }
+        ]
+    }
+}
+
+
+			-Room G.01 to Male Toilets Ground
+			
+			Expected Response:
+			{
+    "responseMessage": "SUCCESS",
+    "responseCode": "0000",
+    "mapData": {
+        "startBuildingName": "ComputerScience",
+        "startFloor": "0",
+        "startLongitude": "115.815952645",
+        "startLatitude": "-31.97760816",
+        "endBuildingName": "ComputerScience",
+        "endFloor": "0",
+        "endLongitude": "115.81599891",
+        "endLatitude": "-31.97762238",
+        "algorithm": "DJ",
+        "path": [
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Room G.01",
+                "latitude": "-31.97760816",
+                "floor": "0",
+                "longitude": "115.81595264"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Room G.01 Door",
+                "latitude": "-31.97765025",
+                "floor": "0",
+                "longitude": "115.81597343"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Left Corridor 2",
+                "latitude": "-31.97766447",
+                "floor": "0",
+                "longitude": "115.81598282"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Male Toilet (Ground Floor) Door",
+                "latitude": "-31.97765025",
+                "floor": "0",
+                "longitude": "115.81598684"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Male Toilets (Ground Floor)",
+                "latitude": "-31.97762238",
+                "floor": "0",
+                "longitude": "115.81599891"
+            }
+        ]
+    }
+}
+
+			-Room 2.28 to Room 2.01
+			
+			Expected Response:
+			{
+    "responseMessage": "SUCCESS",
+    "responseCode": "0000",
+    "mapData": {
+        "startBuildingName": "ComputerScience",
+        "startFloor": "2",
+        "startLongitude": "115.81638917",
+        "startLatitude": "-31.97770201",
+        "endBuildingName": "ComputerScience",
+        "endFloor": "2",
+        "endLongitude": "115.81597544",
+        "endLatitude": "-31.97759678",
+        "algorithm": "DJ",
+        "path": [
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Room 2.28",
+                "latitude": "-31.97770201",
+                "floor": "2",
+                "longitude": "115.81638917"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Room 2.28 Door",
+                "latitude": "-31.97768097",
+                "floor": "2",
+                "longitude": "115.81635766"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 11",
+                "latitude": "-31.97768154",
+                "floor": "2",
+                "longitude": "115.81634693"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 10",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81634492"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 9",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81632949"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 8",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81626512"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 7",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81623293"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 6",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81622422"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 5",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81621617"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 4",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81615917"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 3",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81611559"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 2",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81610218"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Right Corridor 1",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81607804"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Hallway Door",
+                "latitude": "-31.97765651",
+                "floor": "2",
+                "longitude": "115.81606463"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Left Corridor 6",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81605859"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Left Corridor 5",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81604987"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Left Corridor 4",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81603378"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Left Corridor 3",
+                "latitude": "-31.97766049",
+                "floor": "2",
+                "longitude": "115.81600964"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Room 2.01 Door 2",
+                "latitude": "-31.97764911",
+                "floor": "2",
+                "longitude": "115.81600964"
+            },
+            {
+                "buildingName": "ComputerScience",
+                "locationName": "Room 2.01",
+                "latitude": "-31.97759678",
+                "floor": "2",
+                "longitude": "115.81597544"
+            }
+        ]
+    }
+}

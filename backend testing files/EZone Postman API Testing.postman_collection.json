@@ -1,0 +1,76 @@
+{
+	"info": {
+		"name": "EZone Postman API Testing",
+		"_postman_id": "252a215b-0ae7-2c9b-d3c4-7bbdf95f3158",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://52.64.190.66:8080/springMVC-1.0-SNAPSHOT/rooms",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"requestMessage\": \"\",\r\n\t\"roomData\": [{\r\n\t\t\"buildingName\": \"ComputerScience\"\r\n\t}]\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://52.64.190.66:8080/springMVC-1.0-SNAPSHOT/rooms",
+					"protocol": "http",
+					"host": [
+						"52",
+						"64",
+						"190",
+						"66"
+					],
+					"port": "8080",
+					"path": [
+						"springMVC-1.0-SNAPSHOT",
+						"rooms"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "http://52.64.190.66:8080/springMVC-1.0-SNAPSHOT/floorPlan",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"requestMessage\": \"\",\n        \"floorData\":[{\n        \t\"buildingName\": \"ComputerScience\"\n        }]\n    }"
+				},
+				"url": {
+					"raw": "http://52.64.190.66:8080/springMVC-1.0-SNAPSHOT/floorPlan",
+					"protocol": "http",
+					"host": [
+						"52",
+						"64",
+						"190",
+						"66"
+					],
+					"port": "8080",
+					"path": [
+						"springMVC-1.0-SNAPSHOT",
+						"floorPlan"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
